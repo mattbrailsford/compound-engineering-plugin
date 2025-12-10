@@ -8,7 +8,7 @@ The official Every marketplace where engineers from Every.to share their workflo
 Run Claude and add the marketplace:
 
 ```bash
-/plugin marketplace add https://github.com/EveryInc/every-marketplace
+/plugin marketplace add https://github.com/mattbrailsford/mb-marketplace
 ```
 
 Then install the plugin:
@@ -21,26 +21,10 @@ Then install the plugin:
 Use the [Claude Plugins CLI](https://claude-plugins.dev) to skip the marketplace setup:
 
 ```bash
-npx claude-plugins install @EveryInc/every-marketplace/compound-engineering
+npx claude-plugins install @mattbrailsford/mb-marketplace/compound-engineering
 ```
 
 This automatically adds the marketplace and installs the plugin in a single step.
-
-### Factory (Droid) quick start
-
-1) Install Droid (Factory).
-
-```bash
-bunx droid-factory
-```
-
-What this does: copies Claude Code marketplace commands/agents/subagents and converts them to Droid format.
-
-Next:
-- Start Droid
-- In Settings, enable Sub-agents
-
-You're done: use this source from Droid. You don't need to add it in Claude Code anymore.
 
 ---
 
